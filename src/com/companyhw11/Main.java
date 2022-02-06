@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        int lengthArray = 2;
+        int lengthArray = 5;
         Box[] boxes = new Box[lengthArray];
         for (int i = 0; i < boxes.length; i++) {
             boxes[i] = initializationBox();
